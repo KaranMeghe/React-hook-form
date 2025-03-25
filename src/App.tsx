@@ -1,9 +1,11 @@
 /** @format */
-import ReactHookForm from './Components/ReactHookForm';
+
+import ExpencesForm from './ExpenseTracker/Components/ExpencesForm';
+
 function App() {
   return (
     <>
-      <ReactHookForm />
+      <ExpencesForm />
     </>
   );
 }
