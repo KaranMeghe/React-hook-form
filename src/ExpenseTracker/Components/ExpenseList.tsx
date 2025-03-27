@@ -42,13 +42,13 @@ const ExpenseList: React.FC<Props> = ({ expences, onDelete }) => {
       <tfoot>
         <tr>
           <td>Total</td>
-          <td></td>
-          <td></td>
           <td>
             {expences.reduce((acc, expence) => {
               return acc + expence.amount;
             }, 0)}
           </td>
+          <td></td>
+          <td></td>
         </tr>
       </tfoot>
     </table>
